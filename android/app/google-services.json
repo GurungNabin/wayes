@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "545391577654",
+    "firebase_url": "https://ways-a-travel-partner-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ways-a-travel-partner",
+    "storage_bucket": "ways-a-travel-partner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545391577654:android:60319315bc47202fbaa697",
+        "android_client_info": {
+          "package_name": "com.example.wayes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmgdnTpGvAAPhgy2VGxLCyy1-oTTSDv-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
