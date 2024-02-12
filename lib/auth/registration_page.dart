@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wayes/container/textformfield.dart';
-import 'package:wayes/screens/home_page.dart';
+import 'package:wayes/features/futsal/presentation/pages/home_page.dart';
 
 class RegistrationPage extends StatefulWidget {
   const RegistrationPage({super.key});

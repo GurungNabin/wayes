@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:wayes/auth/login_page.dart';
-import 'package:wayes/intro_screens/page1.dart';
-import 'package:wayes/intro_screens/page2.dart';
-import 'package:wayes/intro_screens/page3.dart';
+import 'package:wayes/features/futsal/presentation/pages/intro_screens/page1.dart';
+import 'package:wayes/features/futsal/presentation/pages/intro_screens/page2.dart';
+import 'package:wayes/features/futsal/presentation/pages/intro_screens/page3.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});
@@ -66,10 +65,15 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   onLastPage
                       ? GestureDetector(
                           onTap: () {
-                            Navigator.push(context,
-                                MaterialPageRoute(builder: (context) {
-                              return LoginPage();
-                            }));
+                            // Navigator.push(
+                            //   context,
+                            //   MaterialPageRoute(
+                            //     builder: (context) {
+                            //       return const LoginPage();
+                            //     },
+                            //   ),
+                            // );
+                            Navigator.pushNamed(context, 'home-page');
                           },
                           child: Text(
                             'Let\'s go',

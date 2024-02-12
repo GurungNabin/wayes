@@ -5,6 +5,8 @@ import 'package:wayes/container/textformfield.dart';
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
+  static const String routeName = 'login-page';
+
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
